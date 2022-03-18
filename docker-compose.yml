@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  java_raid:
+    build:
+      context: ./
+    volumes:
+      - ./root:/root/
